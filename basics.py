@@ -310,7 +310,7 @@ joined_elements = ";".join(['my', 'string', 'elements'])
 # completely new string in the background!)
 replacement = "This is a placeholder".replace('placeholder', 'string')
 check_for_substring = 'string' in conc_strings
-locate_substring = replacement.find('is a')
+locate_substring = replacement.find('is a') # == 5
 
 # You can include all kinds of objects in strings with f"{variablename}" using
 # formatted strings. Formatted strings start with a f character

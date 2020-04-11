@@ -5,7 +5,7 @@ print(var)
 
 # The usage of [ ] to access characters in a string
 
-letterT = var[1]
+letterT = var[10]
 
 print(letterT)
 
@@ -17,10 +17,9 @@ lenghtVar = len(var)
 print("Finding the possision of s within var:")
 print(var.find("s"))
 
-# Counting the acurences of a letter within a string
+# Counting the ocurences of a letter within a string
 print("How many times does 'a' show up in var:")
-
-print(var.find("a"))
+print(var.count("a"))
 
 # Find on which index does a word start within a string
 # I don't find this important but:
@@ -39,7 +38,7 @@ print(var[:-3])         #get all but the three last character
 # Spliting a string
 
 theSplit = var.split(" ")
-# >>>Output: ['String','Manipulations'.'is'.'a','"serious"','Crime']
+# >>>Output: ['String','Manipulations','is','a','"serious"','Crime']
 
 # Boolean statements
 
