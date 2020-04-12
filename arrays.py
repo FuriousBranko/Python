@@ -10,20 +10,20 @@ print(A)
 # >>>Output: ['yellow', 'red', 'blue', 'green', 'black']
 
 # Displaying values from the string using their index
-print('\nThe value on the index of 2 is: '+ A[2])
+print('\nThe value on the index of 2 is: ' + A[2])
 # >>>Output: The value on the index of 2 is blue
 
 # Slicing the array
-print('\nA[1:4] returns= '+ str(A[1:4]))
+print('\nA[1:4] returns= ' + str(A[1:4]))
 # = returns ['red', 'blue', 'green']
-print('A[2:] returns= '+ str(A[2:]))
-#= returns ['blue', 'green', 'black']
-print('A[:2] returns= '+ str(A[:2]))
-#= returns ['yellow', 'red']
-print('A[-1] returns= '+ str(A[-1]))
-#= returns 'black'
-print('A[1:-1] returns= '+ str(A[1:-1]))
-#= returns ['red', 'blue', 'green']
+print('A[2:] returns= ' + str(A[2:]))
+# = returns ['blue', 'green', 'black']
+print('A[:2] returns= ' + str(A[:2]))
+# = returns ['yellow', 'red']
+print('A[-1] returns= ' + str(A[-1]))
+# = returns 'black'
+print('A[1:-1] returns= ' + str(A[1:-1]))
+# = returns ['red', 'blue', 'green']
 
 # Using the len() function will display the number of items inside of a array
 print('\nThere are ' + str(len(A)) +' items in the A array')
@@ -51,14 +51,14 @@ B.extend(A)
 print('\nWe have added the A array onto the B array at its end: ' + str(B))
 
 # Removing the first found value from a array
-print('\n'+ str(B))
+print('\n' + str(B))
 B.remove('red')
 print('The first "red" value was removed from the array:')
 print(B)
 
 # Deleting a value by index
 del B[7]
-print('/nWe will remove the value of the 7th index:\n' + str(B))
+print('\nWe will remove the value of the 7th index:\n' + str(B))
 
 # Removing the last value for an array
 B.pop()
@@ -72,5 +72,5 @@ if 'tanana' in B:
     print('\nTjasi Tjasi Tanana\n')
 
 # Some use of FOR loops
-for item in B:
-    print(item)
+for x in B:
+    print(x)
