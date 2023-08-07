@@ -39,11 +39,11 @@ print('\n' + str(A) + ' reverses into ' + str(B))
 B.reverse()
 
 # Adding/Appending onto the end of the array
-B.append('tanana')
+B.append('purple')
 print('\nAfter appending the new array looks like this: ' + str(B))
 
 # Inserting values into a list
-B.insert(5,'Tjasi')
+B.insert(5,'pink')
 print('\nOn the 5th index we\'ve added the wanted value, so the array looks like this: ' + str(B))
 
 # Adding an array to a array
@@ -68,8 +68,8 @@ print('\nUsing pop it will remove the last value from the array:\n' + str(B))
 print('\nWe can check how many times there is "yellow" in the array: ' + str(B.count('yellow')))
 
 # Some use of IF statements
-if 'tanana' in B:
-    print('\nTjasi Tjasi Tanana\n')
+if 'purple' in B:
+    print('\nThere is purple in array B\n')
 
 # Some use of FOR loops
 for x in B:
